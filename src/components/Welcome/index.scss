@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+
+  .portrait{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden; 
+    .portrait-image {
+      width: 100%; 
+      height: auto;
+    }
+  }
+}
