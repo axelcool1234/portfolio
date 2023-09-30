@@ -5,7 +5,7 @@ export default function Notes() {
   return (
     <div>
       <h1>Notes</h1>
-      <Link to="/notes/intro-to-mips">Intro to MIPS</Link>
+      <Link to="/notes/intro-to-mips">Introduction to MIPS Assembly Language</Link>
     </div>
   );
 }

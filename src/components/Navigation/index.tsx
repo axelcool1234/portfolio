@@ -9,7 +9,7 @@ export default function Navigation() {
         <img src = {Logo} alt="Logo"/>
       </Link>
         <Link to="/">Home</Link>
-        <Link to="/Notes">Notes</Link>
+        <Link to="/notes">Notes</Link>
         <Link to="/contact">Contact</Link>
     </div>
   );
