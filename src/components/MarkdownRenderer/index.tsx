@@ -1,17 +1,20 @@
+import './index.scss'
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
+import remarkGfm from 'remark-gfm';
 
 interface MarkdownRendererProps {
   fileName: string;
 }
 
-export default function MarkdownRenderer({ fileName }: MarkdownRendererProps) {
+const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ fileName }) => {
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    if (!fileName) return; // Don't fetch if fileName is not provided
+    if (!fileName) return;
 
-    fetch(`../../assets/markdown/${fileName}`)
+    fetch(`./markdown/${fileName}`)
       .then((response) => response.text())
       .then((text) => setMarkdown(text))
       .catch((error) => console.error(error));
@@ -19,7 +22,13 @@ export default function MarkdownRenderer({ fileName }: MarkdownRendererProps) {
 
   return (
     <div className="markdown-container">
-      <ReactMarkdown>{markdown}</ReactMarkdown>
+      <ReactMarkdown
+        children={markdown}
+        remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeRaw]}
+      />
     </div>
   );
 }
+
+export default MarkdownRenderer;
