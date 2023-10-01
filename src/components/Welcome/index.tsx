@@ -1,5 +1,5 @@
 import './index.scss'
-import Portrait from '../../assets/img/Axel.jpg'
+import Portrait from '../../../public/img/Axel.jpg'
 
 export default function Welcome() {
   return (
