@@ -53,7 +53,11 @@ Branch instructions allow us to change the flow or execution of our porgram. The
 Branch instructions are the **I-type**.
 
 ### Jump
-Jump instructions also allow us to change the flor of our porgram. These instructions change the flow unconditionally.
+Jump instructions also allow us to change the flow of our porgram. These instructions change the flow unconditionally.
+
+Jump instructions are the **J-type**.
 
 ### Pseudo
 Pseudo instructions do not exist in hardware and only exist for ease of the user. The compiler recognizes pseudo instructions and then breaks them down into "real" instructions the hardware can handle.
+
+Since pseudo instructions don't exist in hardware, they do not have a type.
