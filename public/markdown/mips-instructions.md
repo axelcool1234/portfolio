@@ -17,13 +17,13 @@ MIPS uses 3 standardized instruction formats.
 The formatting of an instruction determines how we read or access the 32 bits of an instruction.
 
 #### Register (R-type)
-![r-type](../public/img/r-type.png)
+![r-type](../img/r-type.png)
 
 #### Immediate (I-type)
-![i-type](../public/img/i-type.png)
+![i-type](../img/i-type.png)
 
 #### Jump (J-type)
-![j-type](../public/img/j-type.png)
+![j-type](../img/j-type.png)
 
 ## Categories of Instructions
 There are 5 main categories of instructions.
