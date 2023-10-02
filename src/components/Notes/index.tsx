@@ -18,7 +18,7 @@ export default function Notes() {
               <Link to="/notes/intro-to-mips">Introduction to MIPS Assembly Language</Link>
             </td>
             <td>
-              {/* Empty Data Structures Notes */}
+              <Link to="/notes/searching-algorithms">Searching Algorithms</Link>
             </td>
           </tr>
           <tr>
@@ -26,7 +26,15 @@ export default function Notes() {
               <Link to="/notes/mips-instructions">MIPS Assembly Instructions</Link>
             </td>
             <td>
-              {/* Empty Data Structures Notes */}
+              <Link to="/notes/sorting-algorithms">Sorthing Algorithms</Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              {/* Empty Computer Organization row */}
+            </td>
+            <td>
+              <Link to="/notes/data-structures">Data Structures</Link>
             </td>
           </tr>
           {/* Add more rows here */}
