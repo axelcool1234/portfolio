@@ -3,9 +3,8 @@ const markdownFiles = [
     'intro-to-mips.md',
     'mips-instructions.md',
     // Data Structures and Algorithms
-    'data-structures.md',
-    'searching-algorithms.md',
-    'sorting-algorithms.md',
+    'stacks.md',
+    'queues.md',
   ];
   
   export default markdownFiles;

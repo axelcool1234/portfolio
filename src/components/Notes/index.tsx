@@ -9,7 +9,8 @@ export default function Notes() {
         <thead>
           <tr>
             <th>Computer Organization and Principles in System Design</th>
-            <th>Data Structures and Algorithms</th>
+            <th>Data Structures</th>
+            <th>Algorithms</th>
           </tr>
         </thead>
         <tbody>
@@ -18,7 +19,10 @@ export default function Notes() {
               <Link to="/notes/intro-to-mips">Introduction to MIPS Assembly Language</Link>
             </td>
             <td>
-              <Link to="/notes/searching-algorithms">Searching Algorithms</Link>
+              <Link to="/notes/lists">Lists</Link>
+            </td>
+            <td>
+              {/* Empty Algorithms row */}
             </td>
           </tr>
           <tr>
@@ -26,7 +30,10 @@ export default function Notes() {
               <Link to="/notes/mips-instructions">MIPS Assembly Instructions</Link>
             </td>
             <td>
-              <Link to="/notes/sorting-algorithms">Sorthing Algorithms</Link>
+              <Link to="/notes/stacks">Stacks</Link>
+            </td>
+            <td>
+              {/* Empty Algorithms row */}
             </td>
           </tr>
           <tr>
@@ -34,7 +41,10 @@ export default function Notes() {
               {/* Empty Computer Organization row */}
             </td>
             <td>
-              <Link to="/notes/data-structures">Data Structures</Link>
+              <Link to="/notes/queues">Queues</Link>
+            </td>
+            <td>
+              {/* Empty Algorithms row */}
             </td>
           </tr>
           {/* Add more rows here */}
