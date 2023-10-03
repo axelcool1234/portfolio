@@ -3,6 +3,7 @@ const markdownFiles = [
     'intro-to-mips.md',
     'mips-instructions.md',
     // Data Structures and Algorithms
+    'data-structures.md',
     'stacks.md',
     'queues.md',
   ];
